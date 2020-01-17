@@ -12,7 +12,9 @@ Au clic, l'article est ajouté aux favoris via la session . Lors du déclic l'ic
 
 Ajout de notre GIF-[![Les favoris selon Moi](https://media.giphy.com/media/mVQEwcRpxamnS/giphy.gif)]()
 ##Table des matieres
+
 -[explication](#explication)
+
 -[Remerciements](#remerciements)
 ---
 ## Explication
@@ -37,4 +39,4 @@ if(isset($_POST["a"]) && $_POST["a"] == "remove")
 ---
 A tous les étudiants!
 ---
-[![Veuillez visiter notre site](https://media.giphy.com/media/KctrWMQ7u9D2du0YmD/giphy.gif)]gi(https://www.keepezi.com)
+[![Veuillez visiter notre site](https://media.giphy.com/media/KctrWMQ7u9D2du0YmD/giphy.gif)](https://www.keepezi.com)

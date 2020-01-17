@@ -11,3 +11,30 @@ Au clic, l'article est ajouté aux favoris via la session . Lors du déclic l'ic
 -Les articles apparaissent en "dur " dans notre index , veuillez la remplacer par les votres
 
 Ajout de notre GIF-[![Les favoris selon Moi](https://media.giphy.com/media/mVQEwcRpxamnS/giphy.gif)]()
+##Table des matieres
+-[explication](#explication)
+-[Remerciements](#remerciements)
+---
+## Explication
+---
+>Ajout d'une portion de code dans le READ ME
+```PHP
+
+// REtrait des favoris en SESSION
+if(isset($_POST["a"]) && $_POST["a"] == "remove")
+{
+    foreach ($_SESSION['favorites'] as $key => $value)
+    {
+        if($id == $value)
+        {
+        unset($_SESSION['favorites'][$key]);
+        }
+    }
+}
+```
+-Pour retirer les favoris de ma SESSION je regarde bien que l action demandée est un "remove";
+-Je fais concorder le $id envoyé en POST avec les valeurs enregistrées en SESSION.
+---
+A tous les étudiants!
+---
+[![Veuillez visiter notre site](https://media.giphy.com/media/KctrWMQ7u9D2du0YmD/giphy.gif)]gi(https://www.keepezi.com)
